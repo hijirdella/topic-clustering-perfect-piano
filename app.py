@@ -16,7 +16,7 @@ tfidf_vectorizer = joblib.load("PerfectPiano_tfidf_vectorizer.pkl")
 st.set_page_config(page_title="Topic Clustering - Perfect Piano", layout="wide")
 
 # === Judul Aplikasi ===
-st.title("🎶 Topic Clustering - Perfect Piano")
+st.title("🎹 Topic Clustering - Perfect Piano")
 
 # === Fungsi Pembersihan Review ===
 def clean_text(text):
